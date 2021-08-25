@@ -1,0 +1,69 @@
+body {
+  padding: 0px;
+  margin: 0px 200px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-color: rgb(52, 52, 52);
+  color: #fff;
+}
+
+header {
+  text-align: center;
+  margin: 20px;
+}
+
+header a {
+  margin-right: 30px;
+  text-decoration: none;
+}
+
+a {
+  color: #fff;
+}
+
+#githublink {
+  color: #fff;
+  text-decoration: none;
+}
+
+article.apresentation {
+  display: flex;
+}
+
+article.apresentation img {
+  width: 200px;
+  margin: 20px;
+}
+
+.skills {
+  display: flex;
+}
+
+article.about {
+  margin: 20px;
+}
+
+article.about div.skills {
+}
+
+.skills-change{
+  margin-right: 10px;
+  background-color: #fff;
+  color: blue;
+  border: 3px solid blue;
+  width: 80px;
+  height: 20px;
+  text-align: center;
+}
+
+article.profile {
+  margin: 20px;
+}
+
+.links-profile {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.link-profile {
+  margin-right: 30px;
+}
