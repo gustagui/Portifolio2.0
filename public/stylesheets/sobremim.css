@@ -1,0 +1,58 @@
+@media (min-width:450px) {
+    body {
+      margin: 60px;
+    }
+    header a{
+        font-size: 40px;
+    }
+  }
+
+a {
+    color: #fff;
+  }
+  
+  #githublink {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  article.apresentation {
+    display: flex;
+  }
+  
+  article.apresentation img {
+    width: 200px;
+    margin: 20px;
+  }
+  
+  .skills {
+    display: flex;
+  }
+  
+  article.about {
+    margin: 20px;
+  }
+  
+  .skills-change{
+    margin-right: 10px;
+    background-color: #fff;
+    color: blue;
+    border: 3px solid blue;
+    width: 80px;
+    height: 20px;
+    text-align: center;
+  }
+  
+  article.profile {
+    margin: 20px;
+  }
+  
+  .links-profile {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .link-profile {
+    margin-right: 30px;
+  }
+  
