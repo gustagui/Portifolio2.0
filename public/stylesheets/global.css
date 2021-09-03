@@ -1,0 +1,32 @@
+body {
+  padding: 0px;
+  margin: 0;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-color: rgb(52, 52, 52);
+  color: #fff;
+}
+
+header div.links-header {
+  display: flex;
+  margin: 20px;
+  font-size: 20px;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+header div.links-header a {
+  text-decoration: none;
+}
+
+a {
+  color: #fff;
+}
+
+@media (max-width: 450px) {
+  .links-header {
+    display: none;
+  }
+}
