@@ -22,10 +22,16 @@ header div.links-header {
   header {
     margin-top: 30px;
   }
+  header div.links-header{
+    flex-wrap: wrap;
+    margin: 0px;
+    flex-direction: column;
+  }
 }
 
 header div.links-header {
   display: flex;
+  flex-wrap: wrap;
   gap: 10px;
   margin: 10px;
 }
