@@ -2,7 +2,7 @@
   width: 250px;
 }
 
-@media (max-width: 450px) {
+@media (max-width: 800px) {
   #avatar {
     width: 150px;
     border-radius: 150px;
@@ -17,7 +17,7 @@ article.apresentation {
   margin: 10px 100px;
 }
 
-@media (max-width: 450px) {
+@media (max-width: 800px) {
   article.apresentation {
     margin: 20px;
     gap: 20px;
@@ -45,7 +45,7 @@ article.about {
   flex-wrap: wrap;
 }
 
-@media (max-width: 450px) {
+@media (max-width: 800px) {
   article.about {
     gap: 10px;
     margin: 40px;
@@ -85,7 +85,7 @@ article.profile {
   gap: 20px;
 }
 
-@media (max-width: 450px) {
+@media (max-width: 800px) {
   article.profile {
     margin: 40px;
   }
