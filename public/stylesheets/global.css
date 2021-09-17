@@ -25,7 +25,6 @@ header div.links-header {
   header div.links-header{
     flex-wrap: wrap;
     margin: 0px;
-    flex-direction: column;
   }
 }
 
