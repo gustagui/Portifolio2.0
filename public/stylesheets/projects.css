@@ -1,15 +1,10 @@
-@media (max-width: 450px) {
-    article.maintenance {
-        display: flex;
-        width: 100%;
-        margin: 30px;
-        flex-wrap: wrap;
-    }
-    body {
-        margin: 0px 0px;
-    }
-    .img-center {
-        width: 100%;
-        margin-right: 50px;
-    }
+.maintenance {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+
+#img-maintenance {
+    width: 80%;
 }

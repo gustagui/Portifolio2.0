@@ -1,9 +1,10 @@
-body {
+* {
   padding: 0px;
   margin: 0;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  font:"Lucida Grande", Helvetica, Arial, sans-serif;
   background-color: rgb(52, 52, 52);
-  color: #fff;
+  color: rgb(202, 197, 197);
+  box-sizing: border-box;
 }
 
 header div.links-header {
@@ -17,16 +18,32 @@ header div.links-header {
   gap: 30px;
 }
 
+@media (max-width: 450px) {
+  header {
+    margin-top: 30px;
+  }
+}
+
+header div.links-header {
+  display: flex;
+  gap: 10px;
+  margin: 10px;
+}
+
 header div.links-header a {
   text-decoration: none;
 }
 
 a {
-  color: #fff;
+  color: rgb(202, 197, 197);
 }
 
-@media (max-width: 450px) {
-  .links-header {
-    display: none;
-  }
+.link-header {
+  padding: 4px 7px;
+  border: 3px solid rgb(52, 52, 52);
+  background-color: rgb(52, 52, 52);
+}
+
+.link-header:hover {
+  border-bottom: 3px solid blue;
 }
