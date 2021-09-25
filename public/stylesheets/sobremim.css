@@ -1,58 +1,92 @@
-@media (min-width:450px) {
-    body {
-      margin: 60px;
-    }
-    header a{
-        font-size: 40px;
-    }
+#avatar {
+  width: 250px;
+}
+
+@media (max-width: 800px) {
+  #avatar {
+    width: 150px;
+    border-radius: 150px;
+    margin-left: 60px;
+  }
+}
+
+article.apresentation {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 10px 100px;
+}
+
+@media (max-width: 800px) {
+  article.apresentation {
+    margin: 20px;
+    gap: 20px;
   }
 
-a {
-    color: #fff;
+  article.apresentation .info {
+    margin: 10px;
+    gap: 10px;
   }
-  
-  #githublink {
-    color: #fff;
-    text-decoration: none;
-  }
-  
-  article.apresentation {
-    display: flex;
-  }
-  
-  article.apresentation img {
-    width: 200px;
-    margin: 20px;
-  }
-  
-  .skills {
-    display: flex;
-  }
-  
+}
+
+article.apresentation .info {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-left: 20px;
+}
+
+article.about {
+  margin: 20px 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 800px) {
   article.about {
-    margin: 20px;
+    gap: 10px;
+    margin: 40px;
   }
-  
-  .skills-change{
-    margin-right: 10px;
-    background-color: #fff;
-    color: blue;
-    border: 3px solid blue;
-    width: 80px;
-    height: 20px;
-    text-align: center;
-  }
-  
+}
+
+#skills {
+  margin-top: 20px;
+}
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.skills-change {
+  padding: 4px 7px;
+  border: 3px solid blue;
+  background-color: rgb(193, 202, 212);
+  color: blue;
+}
+
+article.profile {
+  margin: 20px 100px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.profile-links {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 20px;
+}
+
+@media (max-width: 800px) {
   article.profile {
-    margin: 20px;
+    margin: 40px;
   }
-  
-  .links-profile {
-    display: flex;
-    flex-wrap: wrap;
-  }
-  
-  .link-profile {
-    margin-right: 30px;
-  }
-  
+}
