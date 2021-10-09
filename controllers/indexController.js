@@ -8,12 +8,15 @@ const indexController = {
     exibirIndex: (req, res) => {
         res.render('index')
     },
-exibirMercearia: (req, res) => {
-    res.render('mercearia')
-},
-exibirBolachas: (req, res) => {
-    res.render('bolachas')
-}
+    exibirMercearia: (req, res) => {
+        res.render('mercearia')
+    },
+    exibirBolachas: (req, res) => {
+        res.render('bolachas')
+    },
+    exibirSorteio: (req, res) => {
+        res.render('sorteio')
+    }
 };
 
 module.exports = indexController;
