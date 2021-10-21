@@ -30,7 +30,6 @@ a {
     flex-wrap: wrap;
     margin: 10px;
     width: 150px;
-    background-color: blueviolet;
     justify-content: flex-start;
     align-items: center;
     padding: 10px;
@@ -102,7 +101,7 @@ li {
 }
 
 .btn-page {
-    background-color: orange;
+    background-color: #8BC0DF;
     width: 100px;
     padding: 10px;
     border: 1px solid black;
@@ -110,3 +109,6 @@ li {
     margin: 5px;
 }
 
+.btn-page:hover {
+    background-color: #66b4e0;
+}
