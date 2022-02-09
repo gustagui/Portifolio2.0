@@ -6,5 +6,8 @@ var router = express.Router();
 router.get('/', indexController.exibirIndex);
 router.get('/index', indexController.exibirIndex);
 router.get('/sorteio', indexController.exibirSorteio);
+router.get('/live', indexController.showLive);
+
+router.get('/single-page', indexController.showSinglePage)
 
 module.exports = router;
