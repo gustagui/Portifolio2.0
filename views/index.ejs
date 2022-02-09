@@ -99,7 +99,7 @@
                         action="https://api.staticforms.xyz/submit"
                         >
                         <input type="hidden" name="accessKey" value="5a64b54f-00bd-4a3c-a4b6-2c09b4cc9b08">
-                        <input type="hidden" name="redirectTo" value="https://portfoliogustagui.herokuapp.com/">
+                        <input type="hidden" name="redirectTo" value="https://www.gustagui.com.br/">
                             <div class="form-floating mb-3">
                                 <input class="form-control" id="name" type="text" name="name" placeholder="Enter your name..." data-sb-validations="required" />
                                 <label for="name">Nome completo</label>
@@ -116,6 +116,15 @@
                                 <label for="phone">Telefone</label>
                                 <div class="invalid-feedback" data-sb-feedback="phone:required">É necessário preencher um número.</div>
                             </div>
+                            <div class="form-group col-md-4">
+                                <label for="inputState">Serviços</label>
+                                <select id="inputState" class="form-control">
+                                  <option selected>Website</option>
+                                  <option>Portifolio</option>
+                                  <option>Blog</option>
+                                  <option>Sistema na web</option>
+                                </select>
+                              </div>
                             <div class="form-floating mb-3">
                                 <textarea class="form-control" id="message" name="message" type="text" placeholder="Enter your message here..." style="height: 10rem" data-sb-validations="required"></textarea>
                                 <label for="message">Mensagem</label>
