@@ -53,9 +53,8 @@ window.addEventListener('DOMContentLoaded', event => {
 
 });
 
-const sendEvent = document.querySelector('#submitButton');
-    const website = 'https://www.gustagui.com.br/'
-    sendEvent.onClick = function() {
-        alert('Formulário enviado, entrarei em contato em breve! Obrigado pelo contato!')
-        return website;
-    }
+const btnSend = document.querySelector('#submitButton');
+    const website = 'https://www.gustagui.com.br/';
+    btnSend.addEventListener('click', function(){
+        alert('O formulário foi enviado, obrigado pelo contato!')
+    })
