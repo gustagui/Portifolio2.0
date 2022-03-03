@@ -30,8 +30,6 @@ aside {
 }
 
 aside a {
-    color: var(--primary);
-    text-decoration: none;
     font-weight: bold;
     padding: 10px;
 }
@@ -95,6 +93,10 @@ main h1 {
     justify-content: center;
     align-items: center;
     gap: 20px;
+}
+
+.redesSociais a {
+    font-size: 20px;
 }
 
 @media only screen and (max-width: 600px) {
