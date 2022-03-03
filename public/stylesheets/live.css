@@ -1,68 +1,137 @@
+:root {
+    --primary: #8257e5;
+    --bg: #121214;
+    --bg-2: #202024;
+    --text: #a8a8b3;
+    --primary-dark: #6833e4;
+}
+
 body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-size: 20px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--bg);
+    color: var(--text);
+    display: flex;
+}
+
+aside {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: var(--primary);
+    flex-direction: column;
+    width: 350px;
+    min-width: 250px;
+    height: 100vh;
+    background: var(--bg-2);
+}
+
+aside a {
+    color: var(--primary);
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px;
+}
+
+aside a:hover {
+    color: var(--primary-dark);
+    transition: all 0.5s ease 0s
+}
+
+a {
+    color: var(--primary);
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--primary-dark);
+    transition: all 0.5s ease 0s
+}
+
+small {
+    text-align: center;
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#photo {
+    width: 150px;
+    border-radius: 50%;
+}
+
+.nav {
+    display: flex;
+    flex-direction: column;
 }
 
 main {
-    display: flex;
+    padding: 0 100px;
+    text-align: center;
+    width: 100%;
 }
 
-main section.side-bar {
-    background-color: #121214;
+main h1 {
+    font-size: 60px;
+}
+
+.about {
     display: flex;
+    justify-content: space-around;
     flex-direction: column;
-    align-items: center;
-    justify-content: start;
-    width: 25%;
     height: 100vh;
-    gap: 50px;
-    color: #04d361;
-    border: 1px solid #8257e5;
+    align-items: center;
 }
 
-.links-side-bar {
+.redesSociais {
     display: flex;
-    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     gap: 10px;
 }
 
-.links-side-bar a{
-    color: #8257e5;
-    text-decoration: none;
-}
+@media only screen and (max-width: 600px) {
 
-.links-side-bar a:hover{
-    color: #8257e5;
-    text-decoration: none;
-    font-size: 22px;
-}
+    aside {
+        display: none;
+        width: 100%;
+        margin-top: 100px;
+        padding-top: 50px;
+    }
 
-.conteudo {
-    background-color: #121214;
-    width: 100%;
-    color: #fff;
-    padding: 20px;
-}
+    main {
+        padding: 0 40px;
+    }
 
-#lol-harryxp {
-    border-radius: 25%;
-    width: 250px;
-    height: 250px;
-    margin-right: 20px;
-}
+    #menu {
+        display: block;
+        width: 50px;
+        display: flex;
+        position: absolute;
+        top: 30px;
+    }
 
-.conteudo div {
-    display: flex;
-    flex-wrap: wrap;
-}
+    .nav {
+        text-align: center;
+    }
 
-.conteudo div p {
-    width: 70%;
-}
+    small {
+        position: absolute;
+        bottom: 40px;
+        left: 120px;
+    }
 
-.text {
-    display: flex;
-    flex-wrap: wrap;
+  }
+
+@media only screen and (min-width: 601px) {
+    #menu {
+        display: none;
+    }
 }
