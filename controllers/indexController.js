@@ -10,6 +10,9 @@ const indexController = {
     },
     showSinglePage: (req, res) => {
         res.render('single-page');
+    },
+    showSkin: (req, res) => {
+        res.render('skins');
     }
 };
 
