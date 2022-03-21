@@ -98,6 +98,12 @@ main h1 {
     width: 350px;
 }
 
+.card p {
+    color: var(--title);
+    font-size: 30px;
+    background: none;
+}
+
 .card img:hover {
     cursor: pointer;
     transform: scale(1.5);
