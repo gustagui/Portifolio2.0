@@ -147,17 +147,41 @@ hr {
     width: 80%;
 }
 
-#bg {
-    
-width: 100%;
-    
-position: fixed;
-    
-top: 1px;
-    
-/* background-color: black; */
-    
-z-index: -1;
-    
-height: 100vh;
+#bg-desktop {    
+    width: 100%;   
+    position: fixed;
+    top: 1px;
+    /* background-color: black; */
+    z-index: -1;
+    height: 100vh;
 }
+
+@media only screen and (min-width: 601px) {
+
+    #bg-mobile {
+        display: none;
+    }
+
+    #bg-mobile {    
+        width: 100%;   
+        position: fixed;
+        /* background-color: black; */
+        z-index: -1;
+        height: 100vh;
+    }
+  }
+
+@media only screen and (max-width: 600px) {
+
+    #bg-desktop {
+        display: none;
+    }
+
+    #bg-mobile {    
+        width: 100%;   
+        position: fixed;
+        /* background-color: black; */
+        z-index: -1;
+        height: 100vh;
+    }
+  }
