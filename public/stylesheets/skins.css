@@ -154,27 +154,18 @@ hr {
 }
 
 #bg-desktop {    
+    display: block;
     width: 100%;   
     position: fixed;
     top: 1px;
-    /* background-color: black; */
     z-index: -1;
     height: 100vh;
 }
 
-@media only screen and (min-width: 601px) {
+#bg-mobile {
+    display: none;
+}
 
-    #bg-mobile {
-        display: none;
-    }
-
-    #bg-mobile {    
-        width: 100%;   
-        position: fixed;
-        z-index: -1;
-        height: 100vh;
-    }
-  }
 
 @media only screen and (max-width: 600px) {
 
@@ -182,10 +173,12 @@ hr {
         display: none;
     }
 
-    #bg-mobile {    
+    #bg-mobile {  
+        display: block;
         width: 100%;   
         position: fixed;
+        top: 1px;
         z-index: -1;
         height: 100vh;
-    }
+    }   
   }
