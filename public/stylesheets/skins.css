@@ -109,6 +109,12 @@ main h1 {
     transform: scale(1.5);
 }
 
+@media only screen and (max-width: 600px) {
+    .card img:hover {
+        transform: none;
+    }
+  }
+
 .card {
     text-decoration: none;
 }
@@ -165,7 +171,6 @@ hr {
     #bg-mobile {    
         width: 100%;   
         position: fixed;
-        /* background-color: black; */
         z-index: -1;
         height: 100vh;
     }
@@ -180,7 +185,6 @@ hr {
     #bg-mobile {    
         width: 100%;   
         position: fixed;
-        /* background-color: black; */
         z-index: -1;
         height: 100vh;
     }
