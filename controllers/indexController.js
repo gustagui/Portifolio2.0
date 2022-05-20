@@ -13,6 +13,9 @@ const indexController = {
     },
     showSkin: (req, res) => {
         res.render('skins');
+    },
+    showHome: (req, res) => {
+        res.render('home');
     }
 };
 
