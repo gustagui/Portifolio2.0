@@ -28,8 +28,9 @@ aside h1 {
 
 aside .menu {
     display: flex;
-    /* align-items: center; */
-flex-direction: column;}
+    align-items: center;
+    flex-wrap: wrap;
+}
 
 aside .menu a {
     color: #fff;
@@ -60,6 +61,11 @@ aside .menu a {
     }
     aside h1 {
         padding-left: 20px;
+    }
+    aside .menu {
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
     }
     #menu-icon {
         display: block;
