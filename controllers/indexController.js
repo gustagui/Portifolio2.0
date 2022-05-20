@@ -16,6 +16,9 @@ const indexController = {
     },
     showHome: (req, res) => {
         res.render('home');
+    },
+    showAbout: (req, res) => {
+        res.render('about');
     }
 };
 

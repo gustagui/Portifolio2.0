@@ -9,6 +9,7 @@ router.get('/sorteio', indexController.exibirSorteio);
 router.get('/live', indexController.showLive);
 router.get('/skins', indexController.showSkin);
 router.get('/home', indexController.showHome);
+router.get('/about', indexController.showAbout);
 
 router.get('/single-page', indexController.showSinglePage)
 
