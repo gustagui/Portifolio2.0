@@ -97,16 +97,8 @@ aside .menu a:hover {
 
 .show {
     text-align: center;
-    margin-top: 250px;
+    padding-top: 250px;
 }
-
-@media only screen and (max-width: 600px) {
-    .show {
-        text-align: start;
-        padding-left: 75px;
-        margin-top: 150px;
-    }
-  }
 
 .show h1 {
     color: var(--red);
@@ -195,6 +187,13 @@ main {
     padding: 1px 3px;
 }
 
+.line {
+    height: 1px;
+    background-color: var(--red);
+    margin-bottom: 10px;
+    width: 80px;
+}
+
 @media only screen and (min-width: 600px) {
     .about-container {
         height: 500px;
@@ -228,11 +227,83 @@ main {
         width: 295px;
     }
 
-    .text-especialidades {
+    main {
+        height: 1100px;
+    }
+  }
+
+
+footer {
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    background-color: var(--bg-2);
+}
+
+.content-footer {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding-bottom: 50px;
+}
+
+.what-i-do {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    color: #fff;
+}
+
+.what-i-do h3 {
+    color: var(--red);
+}
+
+.services-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+    align-items: center;
+}
+
+.services {
+    text-align: start;
+    color: #fff;
+    border: 1px solid var(--red);
+    padding: 20px;
+    border-radius: 3px;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    gap: 10px;
+    height: 180px;
+}
+
+.services i {
+    color: var(--red);
+}
+
+
+@media only screen and (max-width: 600px) {
+    footer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .content-footer {
+        
+    }
+
+    .what-i-do {
 
     }
 
-    main {
-        height: 1100px;
+    .services-container {
+        flex-direction: column;
+    }
+
+    .services {
+
     }
   }
