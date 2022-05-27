@@ -8,17 +8,8 @@ btn.addEventListener('click', function(){
         showAside.style.display = 'none';
     } else {
         showAside.style.display = 'block'
-    }
+    }    
 });
-
-btn.addEventListener('click', function(){
-    if (showAside.style.display == 'block'){
-        body.style.display = 'block'
-    } else {
-        body.style.display = 'flex'
-    }
-});
-
 
 btn.addEventListener('click', function(){
     if (showAside.style.display == 'block'){
