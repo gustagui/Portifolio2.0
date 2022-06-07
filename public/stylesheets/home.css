@@ -232,14 +232,14 @@ main {
   }
 
 
-footer {
+.services-footer {
     display: flex;
     justify-content: center;
     padding-top: 40px;
     background-color: var(--bg-2);
 }
 
-.content-footer {
+.content-services {
     display: flex;
     flex-direction: column;
     gap: 40px;
@@ -285,7 +285,7 @@ footer {
 
 
 @media only screen and (max-width: 600px) {
-    footer {
+    .services-footer {
         flex-direction: column;
         align-items: center;
     }
@@ -305,4 +305,71 @@ footer {
     .services {
 
     }
+  }
+
+  .contact-footer {
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    background-color: var(--bg-1);
+    padding-bottom: 40px;
+}
+
+  .contact-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+    align-items: center;
+}
+
+.contact-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.contacts-home {
+    text-align: start;
+    color: #fff;
+    border: 1px solid var(--red);
+    padding: 20px;
+    border-radius: 3px;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    gap: 10px;
+    height: 100px;
+}
+
+.contacts-home i {
+    color: var(--red);
+}
+
+.i {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;
+}
+
+.contacts-home a{
+    color: #fff;
+}
+
+
+
+@media only screen and (min-width: 600px) {
+    
+    .contact-group {
+        display: flex;
+        flex-direction: row;
+        margin-top: 40px;
+        gap: 30px;
+    }
+
   }

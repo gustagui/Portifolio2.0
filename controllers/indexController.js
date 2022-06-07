@@ -11,15 +11,15 @@ const indexController = {
     showSinglePage: (req, res) => {
         res.render('single-page');
     },
-    showSkin: (req, res) => {
-        res.render('skins');
-    },
     showHome: (req, res) => {
         res.render('home');
     },
     showAbout: (req, res) => {
         res.render('about');
-    }
+    },
+    showPortfolio: (req, res) => {
+        res.render('portfolio')
+    },
 };
 
 module.exports = indexController;
